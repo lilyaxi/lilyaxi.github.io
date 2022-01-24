@@ -1,0 +1,77 @@
+/*
+theme 1: https://coolors.co/394053-4e4a59-6e6362-839073-7cae7a
+theme 2: https://coolors.co/813405-d45113-f9a03f-f8dda4-ddf9c1 
+theme 3: https://coolors.co/764248-dda3b2-ffadc6-e3c5bb-dfe2cf
+*/
+html {
+	height: 100%
+}
+body {
+	display: flex;
+	height:100%;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+/*	border: 3px solid black;
+	background-color: gainsboro;*/
+	width:700px;
+	height:500px;
+	display: grid;
+	grid-template-rows:90px 450px 70px; 
+	padding: 10px;
+}
+
+#nav {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 5px;
+	grid-gap: 10px;
+}
+
+#nav > input{
+	background-color:darkolivegreen;
+	color:moccasin;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+#nav > input:hover {
+	background-color:olivedrab;
+	color: moccasin;
+}
+
+#theme {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 5px;
+	grid-gap: 10px;
+	height: 50px;
+}
+
+#theme > input {
+	background-color:#2F4C25;
+	color:moccasin;
+	font-weight:bold;
+	border-radius: 15px;
+}
+
+#theme > input:hover {
+	background-color: #3D6635;
+}
+
+section{
+	border:3px solid white; 
+	background-color:darkolivegreen;
+	border-radius: 15px;
+	padding: 5px;
+	color: moccasin;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div{
+	text-align: center;
+}
